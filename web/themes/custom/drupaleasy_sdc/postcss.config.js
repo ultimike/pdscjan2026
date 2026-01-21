@@ -21,11 +21,13 @@ const postcssImport = require('postcss-import');
 const postcssPxtorem = require('postcss-pxtorem');
 const postcssUrl = require('postcss-url');
 const postcssMixins = require('postcss-mixins');
+const postcssNested = require('postcss-nested');
 
 module.exports = {
   map: true,
   plugins: [
     postcssImport,
+    postcssNested,
     postcssPresetEnv,
     postcssMixins({ mixins }),
     postcssPxtorem({

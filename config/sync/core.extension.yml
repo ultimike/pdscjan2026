@@ -15,6 +15,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  drupaleasy_sdc_demo: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -54,4 +55,6 @@ theme:
   olivero: 0
   claro: 0
   gin: 0
+  stable9: 0
+  drupaleasy_sdc: 0
 profile: standard

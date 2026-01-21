@@ -3,6 +3,14 @@
 body {
   & p {
     color: var(--primary-color);
+    user-select: none;
+  }
+}
+
+.card {
+  &--featured {
+    background: gold;
+    color: color(display-p3 0.64331 0.19245 0.16771);
   }
 }
 
