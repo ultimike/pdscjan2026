@@ -1,15 +1,16 @@
-[data-component-id="drupaleasy_sdc:chip"].chip {
+
+  .chip[data-component-id="drupaleasy_sdc:chip"] {
     display: inline-block;
     padding: 0.25rem;
   }
-  [data-component-id="drupaleasy_sdc:chip"].chip--color-primary {
+.chip--color-primary[data-component-id="drupaleasy_sdc:chip"] {
     background-color: darkblue;
     color: white;
   }
-  [data-component-id="drupaleasy_sdc:chip"].chip--color-secondary {
+.chip--color-secondary[data-component-id="drupaleasy_sdc:chip"] {
     background-color: lightgray;
     color: black;
   }
-  [data-component-id="drupaleasy_sdc:chip"].chip--dismissed {
+.chip--dismissed[data-component-id="drupaleasy_sdc:chip"] {
     display: none;
   }
